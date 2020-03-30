@@ -23,7 +23,7 @@ $sqli 	= "order by|select\(|-- -|injected by|database\(\)|user\(\)|concat\(|'=''
 $xss 	= "alert\(|onerror|document.|src=x|pastebin.com|javascript|.cookie|<iframe";
 $rfi	= "http:\/\/|https:\/\/|data:\/\/|php:\/\/";
 $rce 	= "wget|curl|rm -rf|python";
-$lfi	= "..\/|\/etc\/passwd";
+$lfi	= "\.\.\/|\/etc\/passwd";
 $global = "shell|indoxploit|ssi|backdoor|exploit|php5|phtml|pjpeg|php.black|php.ndsfx|php.fla|php.pjpeg|php7|php2|php_gif|.htaccess";
 $deface = "hacked|owned by|pwndz by|pwnd by|passwd";
 
